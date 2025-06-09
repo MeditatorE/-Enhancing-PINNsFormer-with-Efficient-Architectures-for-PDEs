@@ -89,7 +89,9 @@ We experiment with Fourier Feature Encoding to embed spatial-temporal position i
 All models are trained on a 1D reaction-diffusion equation using the L-BFGS optimizer. Each component is studied via ablation to isolate its impact on model performance.
 
 ## Result
+
 ### Activition Function
+![](https://github.com/MeditatorE/Enhancing-PINNsFormer-with-Efficient-Architectures-for-PDEs/blob/main/activation_error.png)
 **Mish and Swish (Top Row):**
 Large yellow regions indicate high absolute error across the spatial-temporal domain, suggesting poor performance and failure to accurately model the solution.
 
