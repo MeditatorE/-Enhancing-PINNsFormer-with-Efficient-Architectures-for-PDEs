@@ -125,4 +125,8 @@ Achieves significantly lower error, mostly under 0.05 except near the boundaries
 ## Conclusion
 In this project, we enhance the PINNsFormer framework for solving time-dependent PDEs by evaluating and refining its core components. Our results show that using GELU activation and standard multi-head attention significantly improves accuracy and stability, while non-positional encoding surprisingly outperforms Fourier features in simple 1D problems. These findings suggest that simpler, well-tuned modules can be more effective than complex designs in physics-informed learning. Future work will extend these improvements to higher-dimensional PDEs, explore adaptive positional encodings, and test scalability in multi-physics or chaotic systems.
 
+## Reference
+**Paper**: [https://arxiv.org/abs/2307.11833](https://arxiv.org/abs/2307.11833)
+**Source Code**: [https://github.com/AdityaLab/pinnsformer](https://github.com/AdityaLab/pinnsformer)
+
 
