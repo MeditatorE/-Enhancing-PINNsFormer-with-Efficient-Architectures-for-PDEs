@@ -1,5 +1,8 @@
-# -Enhancing-PINNsFormer-with-Efficient-Architectures-for-PDEs
+# Enhancing-PINNsFormer-with-Efficient-Architectures-for-PDEs
 This project is used to provide code support for Enhancing PINNsFormer with Efficient Architectures for PDEs
+
+## Introduction
+This project focuses on enhancing PINNsFormer, a Transformer-based architecture designed for solving time-dependent partial differential equations (PDEs) using physics-informed neural networks (PINNs). Building on the original implementation, we conduct ablation studies on three key components—attention mechanisms, activation functions, and positional encodings. Our results demonstrate that replacing the default activation with GELU significantly improves performance, while standard multi-head attention remains the most stable for low-dimensional PDEs. These findings contribute to the development of efficient and accurate deep learning models for physical systems.
 
 ### Folder Structure
 ```
