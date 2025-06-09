@@ -46,3 +46,18 @@ This project focuses on enhancing PINNsFormer, a Transformer-based architecture 
 ├── util.py
 └── vis_landscape.py
 ```
+
+## Quick Start
+1. Clone this repo
+```
+git clone https://github.com/MeditatorE/Enhancing-PINNsFormer-with-Efficient-Architectures-for-PDEs.git
+cd Enhancing-PINNsFormer-with-Efficient-Architectures-for-PDEs-main
+```
+
+2. Download **[Jupyter notebook](https://jupyter.org)** and run
+```
+jupyter notebook
+```
+
+3. See **[demo Folder]()** and run
+
