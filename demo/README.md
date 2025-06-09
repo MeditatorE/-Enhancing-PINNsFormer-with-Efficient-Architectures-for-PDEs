@@ -1,8 +1,6 @@
 # File Description
-- `model`: This folder contains all the original and modified model code.
+- `attention`: This folder contains test code and demonstration files for testing the replacement attention mechanism.
 
-- `demo/attention`: This folder contains test code and demonstration files for testing the replacement attention mechanism.
+- `activition`: This folder contains test code and demonstration files for testing the replacement activation function.
 
-- `demo/activition`: This folder contains test code and demonstration files for testing the replacement activation function.
-
-- `demo/encoding`:This folder contains test code and demonstration files for testing the replacement encoding method.
+- `encoding`:This folder contains test code and demonstration files for testing the replacement encoding method.
