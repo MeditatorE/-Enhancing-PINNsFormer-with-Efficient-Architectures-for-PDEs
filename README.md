@@ -59,5 +59,5 @@ cd Enhancing-PINNsFormer-with-Efficient-Architectures-for-PDEs-main
 jupyter notebook
 ```
 
-3. See **[demo Folder]()** and run
+3. See **[demo Folder](https://github.com/MeditatorE/Enhancing-PINNsFormer-with-Efficient-Architectures-for-PDEs/tree/main/demo)** and run
 
