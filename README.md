@@ -127,6 +127,7 @@ In this project, we enhance the PINNsFormer framework for solving time-dependent
 
 ## Reference
 **Paper**: [https://arxiv.org/abs/2307.11833](https://arxiv.org/abs/2307.11833)
+
 **Source Code**: [https://github.com/AdityaLab/pinnsformer](https://github.com/AdityaLab/pinnsformer)
 
 
