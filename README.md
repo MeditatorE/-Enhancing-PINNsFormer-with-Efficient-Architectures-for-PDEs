@@ -73,11 +73,18 @@ jupyter notebook
 ## Method
 To enhance the original PINNsFormer architecture for solving time-dependent PDEs, we propose improvements in three key areas:
 
+
 Activation Function:
 We replace the original wavelet-based activation with GELU, Swish, and Mish. Among them, GELU achieves the best performance, significantly reducing training loss and generalization error.
+
+
 Attention Mechanism:
 We evaluate four attention modules: standard multi-head attention, physics-aware attention, multi-scale attention, and multi-physics coupling. Standard multi-head attention proves to be the most stable and accurate for 1D PDEs.
+
+
 Positional Encoding:
 We experiment with Fourier Feature Encoding to embed spatial-temporal position information. While it enriches input representations, the original pseudo-sequence approach remains more effective for simple PDEs.
+
+
 All models are trained on a 1D reaction-diffusion equation using the L-BFGS optimizer. Each component is studied via ablation to isolate its impact on model performance.
 
