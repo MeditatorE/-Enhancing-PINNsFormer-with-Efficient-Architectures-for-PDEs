@@ -102,3 +102,23 @@ Shows the lowest error, with small localized regions of mild error near boundari
 
 **Wavelet (Bottom Right):**
 Performs moderately well, better than Mish/Swish but not as accurate as GELU. It retains useful inductive bias for periodic patterns.
+
+### Attention
+![](https://github.com/MeditatorE/Enhancing-PINNsFormer-with-Efficient-Architectures-for-PDEs/blob/main/attention_error.png)
+**Multi-Physics Coupling / Multi-Scale / Physics Aware Attention (Top Left, Top Right, Bottom Left):**
+All show large error regions (bright yellow), especially around the central domain. These complex attention designs introduce overfitting or instability in this low-dimensional PDE task.
+
+
+**Multi-head Attention (Bottom Right):**
+Achieves the lowest error, with errors mostly below 0.05 and concentrated only near the boundaries. It provides the best accuracy and generalization among all variants.
+
+### Encoding
+![](https://github.com/MeditatorE/Enhancing-PINNsFormer-with-Efficient-Architectures-for-PDEs/blob/main/position_encoding.png)
+
+**Fourier Features (Left):**
+Produces moderate to large errors across the domain (values >1.2 in some regions), especially near the center. Although it introduces richer frequency components, it may overfit or misalign with the PDE's structure.
+
+
+**Non-Positional Encoding (Right):**
+Achieves significantly lower error, mostly under 0.05 except near the boundaries. Despite lacking explicit position encoding, it performs better in this simple 1D PDE due to its implicit temporal unfolding.
+
