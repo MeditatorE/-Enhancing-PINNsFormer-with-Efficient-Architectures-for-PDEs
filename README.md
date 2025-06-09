@@ -1,8 +1,9 @@
 # -Enhancing-PINNsFormer-with-Efficient-Architectures-for-PDEs
 This project is used to provide code support for Enhancing PINNsFormer with Efficient Architectures for PDEs
 
-
-./pinnsformer-main
+### Folder Structure
+```
+./main
 ├── checkpoint
 │   ├── 1dreaction_pinnsformer.pt
 │   ├── README.md
@@ -41,3 +42,4 @@ This project is used to provide code support for Enhancing PINNsFormer with Effi
 ├── pyhessian.py
 ├── util.py
 └── vis_landscape.py
+```
